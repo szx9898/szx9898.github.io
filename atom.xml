@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-  <title>单人旅途</title>
+  <title>zzxx的博客</title>
   <icon>https://www.gravatar.com/avatar/8e17141bfad2d7ae242397e99f051b7b</icon>
-  <subtitle>只属于你我</subtitle>
+  <subtitle>you and me</subtitle>
   <link href="/atom.xml" rel="self"/>
   
   <link href="szx9808.github.io/"/>
-  <updated>2020-07-09T08:59:00.172Z</updated>
+  <updated>2020-07-09T12:16:10.707Z</updated>
   <id>szx9808.github.io/</id>
   
   <author>
@@ -15,6 +15,38 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>我的第二篇博客</title>
+    <link href="szx9808.github.io/2020/07/09/%E7%AC%AC%E4%BA%8C%E4%B8%AA%E5%8D%9A%E5%AE%A2/"/>
+    <id>szx9808.github.io/2020/07/09/%E7%AC%AC%E4%BA%8C%E4%B8%AA%E5%8D%9A%E5%AE%A2/</id>
+    <published>2020-07-09T11:49:21.670Z</published>
+    <updated>2020-07-09T12:16:10.707Z</updated>
+    
+    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><h2 id="我是标题1"><a href="#我是标题1" class="headerlink" title="我是标题1"></a>我是标题1</h2><p>我是正文</p><h2 id="我是标题2"><a href="#我是标题2" class="headerlink" title="我是标题2"></a>我是标题2</h2><p>我是正文2</p><blockquote><p>44444</p></blockquote><blockquote><p>44444</p></blockquote>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;\assets\css\APlayer.min.css&quot;&gt;&lt;script src=&quot;\assets\js\APlayer.min.js&quot; cla
+      
+    
+    </summary>
+    
+    
+      <category term="教程" scheme="szx9808.github.io/categories/%E6%95%99%E7%A8%8B/"/>
+    
+      <category term="Hexo" scheme="szx9808.github.io/categories/%E6%95%99%E7%A8%8B/Hexo/"/>
+    
+    
+      <category term="Hexo" scheme="szx9808.github.io/tags/Hexo/"/>
+    
+      <category term="主题" scheme="szx9808.github.io/tags/%E4%B8%BB%E9%A2%98/"/>
+    
+      <category term="教程" scheme="szx9808.github.io/tags/%E6%95%99%E7%A8%8B/"/>
+    
+  </entry>
   
   <entry>
     <title>我的第一篇博客</title>
