@@ -5,9 +5,9 @@
   <subtitle>Only you</subtitle>
   <link href="/atom.xml" rel="self"/>
   
-  <link href="szx9808.github.io/"/>
+  <link href="https://szx9898.github.io/"/>
   <updated>2020-07-17T02:33:20.967Z</updated>
-  <id>szx9808.github.io/</id>
+  <id>https://szx9898.github.io/</id>
   
   <author>
     <name>zzxx</name>
@@ -18,8 +18,8 @@
   
   <entry>
     <title>GC垃圾回收</title>
-    <link href="szx9808.github.io/2020/07/16/GC%E5%9E%83%E5%9C%BE%E5%9B%9E%E6%94%B6/"/>
-    <id>szx9808.github.io/2020/07/16/GC%E5%9E%83%E5%9C%BE%E5%9B%9E%E6%94%B6/</id>
+    <link href="https://szx9898.github.io/2020/07/16/GC%E5%9E%83%E5%9C%BE%E5%9B%9E%E6%94%B6/"/>
+    <id>https://szx9898.github.io/2020/07/16/GC%E5%9E%83%E5%9C%BE%E5%9B%9E%E6%94%B6/</id>
     <published>2020-07-16T06:57:57.172Z</published>
     <updated>2020-07-17T02:33:20.967Z</updated>
     
@@ -32,14 +32,14 @@
     </summary>
     
     
-      <category term="Java" scheme="szx9808.github.io/categories/Java/"/>
+      <category term="Java" scheme="https://szx9898.github.io/categories/Java/"/>
     
-      <category term="GC垃圾回收" scheme="szx9808.github.io/categories/Java/GC%E5%9E%83%E5%9C%BE%E5%9B%9E%E6%94%B6/"/>
+      <category term="GC垃圾回收" scheme="https://szx9898.github.io/categories/Java/GC%E5%9E%83%E5%9C%BE%E5%9B%9E%E6%94%B6/"/>
     
     
-      <category term="Java" scheme="szx9808.github.io/tags/Java/"/>
+      <category term="Java" scheme="https://szx9898.github.io/tags/Java/"/>
     
-      <category term="GC" scheme="szx9808.github.io/tags/GC/"/>
+      <category term="GC" scheme="https://szx9898.github.io/tags/GC/"/>
     
   </entry>
   
