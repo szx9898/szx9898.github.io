@@ -10,7 +10,7 @@ img {
 }
 /* 页脚footer */
 /* 渐变色滚动动画 */
-@-webkit-keyframes Gradient {
+/* @-webkit-keyframes Gradient {
     0% {
         background-position: 0 50%;
     }
@@ -50,8 +50,8 @@ img {
     100% {
         background-position: 0 50%;
     }
-}
-#footer {
+} */
+/* #footer {
     background: linear-gradient(-45deg, #ee7752, #ce3e75, #23a6d5, #23d5ab);
     background-size: 400% 400%;
     -webkit-animation: Gradient 10s ease infinite;
@@ -64,10 +64,10 @@ img {
     user-select: none;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
-}
-#footer:before {
+} */
+/* #footer:before {
     background-color: rgba(0, 0, 0, 0);
-}
+} */
 /* 滚动条 */
 ::-webkit-scrollbar {
     width: 8px;
@@ -102,8 +102,8 @@ img {
     color: #fff;
     background-color: #49b1f5;
   }
-
-  #aside_content
+/* 分类卡片折叠 */
+/* #aside_content
 .card-archives
 ul.card-archive-list
 > .card-archive-list-item
@@ -117,13 +117,22 @@ a
 span:first-child {
     width: auto;
     min-width: 50%;
-}
+} */
 /* 透明度 */
 .layout_post>#post {
     background: rgba(255,255,255,.3);
 }
 /* 设置页面背景颜色或图片 */
 #web_bg {
+    /* 背景图像的地址（url括号里）  */
+    /* background: url(https://edu-9898.oss-cn-beijing.aliyuncs.com/2.jpg); */
+    /* 背景图像不重复 */
+    /* background-repeat: no-repeat; */
+    /* 背景图像大小 */
+    /* background-size: cover; */
+    /* 图片滤镜渐变 */
+    /* background-image: url("https://edu-9898.oss-cn-beijing.aliyuncs.com/5b90f4871daba.jpg"), linear-gradient(60deg, rgba(255, 165, 150, 0.5) 5%, rgba(0, 228, 255, 0.35)), url("https://ae01.alicdn.com/kf/H21b5f6b8496141a1979a33666e1074d9x.jpg"); */
+    /* 小康博主同款渐变 */
     background: -webkit-linear-gradient(
       0deg,
       rgba(247, 149, 51, 0.1) 0,
