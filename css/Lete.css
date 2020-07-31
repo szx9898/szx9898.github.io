@@ -12,9 +12,9 @@
     color: #00c4b6;
 } */
 /*页脚自定义字段字体颜色*/
-/* .footer_custom_text {
-    color: #00c4b6;
-} */
+.footer_custom_text {
+    color: #000000;
+}
 
 /*文章透明*/
 /* .layout_post>#post {
