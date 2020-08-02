@@ -1,12 +1,12 @@
-Css
+/* 鼠标样式 */
 body {
-    cursor: url(https://cdn.jsdelivr.net/gh/sviptzk/HexoStaticFile@latest/Hexo/img/default.cur),
-        default;
+  cursor: url(https://cdn.jsdelivr.net/gh/sviptzk/HexoStaticFile@latest/Hexo/img/default.cur),
+      default;
 }
 a,
 img {
-    cursor: url(https://cdn.jsdelivr.net/gh/sviptzk/HexoStaticFile@latest/Hexo/img/pointer.cur),
-        default;
+  cursor: url(https://cdn.jsdelivr.net/gh/sviptzk/HexoStaticFile@latest/Hexo/img/pointer.cur),
+      default;
 }
 /* 滚动条 */
 ::-webkit-scrollbar {
@@ -42,106 +42,39 @@ img {
     color: #fff;
     background-color: #49b1f5;
   }
-/* 分类卡片折叠 */
-#aside_content
-.card-archives
-ul.card-archive-list
-> .card-archive-list-item
-a
-span:first-child,
-#aside_content
-.card-categories
-ul.card-category-list
-> .card-category-list-item
-a
-span:first-child {
-    width: auto;
-    min-width: 50%;
-}
 /* 透明度 */
 .layout_post>#post {
     background: rgba(255,255,255,.3);
 }
 /* 页脚footer */
 #footer {
-  background-image: linear-gradient(to top, #cfd9df 0%, #e2ebf0 100%);
-  /* background-size: 400% 400%; */
-  /* -webkit-animation: Gradient 10s ease infinite;
-  -moz-animation: Gradient 10s ease infinite;
-  animation: Gradient 10s ease infinite;
-  -o-user-select: none;
-  -ms-user-select: none;
-  -webkit-user-select: none;
-  -moz-user-select: none;
-  user-select: none;
-  border-top-left-radius: 10px;
-  border-top-right-radius: 10px; */
+  background-image: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  border-top-right-radius: 10px; 
 }
-/* 设置页面背景颜色或图片 */
 #web_bg {
-    /* 背景图像的地址（url括号里）  */
-    /* background: url(https://edu-9898.oss-cn-beijing.aliyuncs.com/2.jpg); */
-    /* 背景图像不重复 */
-    /* background-repeat: no-repeat; */
-    /* 背景图像大小 */
-    /* background-size: cover; */
-    /* 图片滤镜渐变 */
-    /* background-image: url("https://edu-9898.oss-cn-beijing.aliyuncs.com/5b90f4871daba.jpg"), linear-gradient(60deg, rgba(255, 165, 150, 0.5) 5%, rgba(0, 228, 255, 0.35)), url("https://ae01.alicdn.com/kf/H21b5f6b8496141a1979a33666e1074d9x.jpg"); */
-    /* 小康博主同款渐变 */
-    background: -webkit-linear-gradient(
-      0deg,
-      rgba(247, 149, 51, 0.1) 0,
-      rgba(243, 112, 85, 0.1) 15%,
-      rgba(239, 78, 123, 0.1) 30%,
-      rgba(161, 102, 171, 0.1) 44%,
-      rgba(80, 115, 184, 0.1) 58%,
-      rgba(16, 152, 173, 0.1) 72%,
-      rgba(7, 179, 155, 0.1) 86%,
-      rgba(109, 186, 130, 0.1) 100%
-    );
-    background: -moz-linear-gradient(
-      0deg,
-      rgba(247, 149, 51, 0.1) 0,
-      rgba(243, 112, 85, 0.1) 15%,
-      rgba(239, 78, 123, 0.1) 30%,
-      rgba(161, 102, 171, 0.1) 44%,
-      rgba(80, 115, 184, 0.1) 58%,
-      rgba(16, 152, 173, 0.1) 72%,
-      rgba(7, 179, 155, 0.1) 86%,
-      rgba(109, 186, 130, 0.1) 100%
-    );
-    background: -o-linear-gradient(
-      0deg,
-      rgba(247, 149, 51, 0.1) 0,
-      rgba(243, 112, 85, 0.1) 15%,
-      rgba(239, 78, 123, 0.1) 30%,
-      rgba(161, 102, 171, 0.1) 44%,
-      rgba(80, 115, 184, 0.1) 58%,
-      rgba(16, 152, 173, 0.1) 72%,
-      rgba(7, 179, 155, 0.1) 86%,
-      rgba(109, 186, 130, 0.1) 100%
-    );
-    background: -ms-linear-gradient(
-      0deg,
-      rgba(247, 149, 51, 0.1) 0,
-      rgba(243, 112, 85, 0.1) 15%,
-      rgba(239, 78, 123, 0.1) 30%,
-      rgba(161, 102, 171, 0.1) 44%,
-      rgba(80, 115, 184, 0.1) 58%,
-      rgba(16, 152, 173, 0.1) 72%,
-      rgba(7, 179, 155, 0.1) 86%,
-      rgba(109, 186, 130, 0.1) 100%
-    );
-    background: linear-gradient(
-      90deg,
-      rgba(247, 149, 51, 0.1) 0,
-      rgba(243, 112, 85, 0.1) 15%,
-      rgba(239, 78, 123, 0.1) 30%,
-      rgba(161, 102, 171, 0.1) 44%,
-      rgba(80, 115, 184, 0.1) 58%,
-      rgba(16, 152, 173, 0.1) 72%,
-      rgba(7, 179, 155, 0.1) 86%,
-      rgba(109, 186, 130, 0.1) 100%
-    );
-  } 
- 
+  /* background-image: url("https://ae01.alicdn.com/kf/H18a4b998752a4ae68b8e85d432a5aef0l.png"), linear-gradient(60deg, rgba(255, 165, 150, 0.5) 5%, rgba(0, 228, 255, 0.35)), url("https://ae01.alicdn.com/kf/H21b5f6b8496141a1979a33666e1074d9x.jpg"); */
+  /* background-image: url("https://typora-picgo-download.oss-cn-beijing.aliyuncs.com/index_pic/index9.png"); */
+  background-image: linear-gradient(to top, #f3e7e9 0%, #e3eeff 99%, #e3eeff 100%);
+}
+/* 自定义Butterfly主题字体 */
+@font-face {
+  font-family: 'sleek';
+  src: url('https://cdn.jsdelivr.net/gh/lete114/CDN2/zaxiang/sleek.woff2');
+}
+/*zzxx的博客颜色修改*/
+/* #page-header #site_title {
+  color: #80bdab;
+} */
+/*页脚a标签字体颜色*/
+/* #footer-wrap a {
+  color: #00c4b6;
+} */
+/*页脚自定义字段字体颜色*/
+.footer_custom_text {
+  color: #000000;
+}
+/* 所有背景（包括首页卡片、文章页、页面页等） */
+#aside_content .card-widget, #recent-posts>.recent-post-item, .layout_page>div:first-child:not(.recent-posts), .layout_post>#page, .layout_post>#post, .read-mode .layout_post>#post{
+  /* 以下代表白色透明度为0.3 */
+  background: rgba(255,255,255,.3);
+}
