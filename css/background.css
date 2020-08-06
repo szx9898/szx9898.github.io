@@ -48,13 +48,14 @@ img {
 }
 /* 页脚footer */
 #footer {
-  background-image: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-  border-top-right-radius: 10px; 
+  /* background-image: linear-gradient(to top, #30cfd0 0%, #330867 100%); */
+  background-image: url(https://cdn.jsdelivr.net/gh/xiabor/img/Tibet/among-trees-f3-3840x2160.jpg)
 }
 #web_bg {
   /* background-image: url("https://ae01.alicdn.com/kf/H18a4b998752a4ae68b8e85d432a5aef0l.png"), linear-gradient(60deg, rgba(255, 165, 150, 0.5) 5%, rgba(0, 228, 255, 0.35)), url("https://ae01.alicdn.com/kf/H21b5f6b8496141a1979a33666e1074d9x.jpg"); */
   /* background-image: url("https://typora-picgo-download.oss-cn-beijing.aliyuncs.com/index_pic/index9.png"); */
-  background-image: linear-gradient(to top, #f3e7e9 0%, #e3eeff 99%, #e3eeff 100%);
+  background-image: linear-gradient(-225deg, #FFFEFF 0%, #D7FFFE 100%);
+  
 }
 /* 自定义Butterfly主题字体 */
 @font-face {
@@ -70,9 +71,9 @@ img {
   color: #00c4b6;
 } */
 /*页脚自定义字段字体颜色*/
-.footer_custom_text {
+/* .footer_custom_text {
   color: #000000;
-}
+} */
 /* 所有背景（包括首页卡片、文章页、页面页等） */
 #aside_content .card-widget, #recent-posts>.recent-post-item, .layout_page>div:first-child:not(.recent-posts), .layout_post>#page, .layout_post>#post, .read-mode .layout_post>#post{
   /* 以下代表白色透明度为0.3 */
