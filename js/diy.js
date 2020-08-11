@@ -1,6 +1,6 @@
 // 设置页脚博主会动的心
 $(document).ready(function(e){
-    $('.copyright').html('©2020 <i style="color:#FF6A6A;animation: announ_animation 0.8s linear infinite;" class="fa fa-heartbeat"></i> 梓里');
+    $('.copyright').html(`©2020 <i style="color:#FF6A6A;animation: announ_animation 0.8s linear infinite;" class="fa fa-heartbeat"></i> 梓里`);
 })
 // 添加up酱
 // 添加图片top
